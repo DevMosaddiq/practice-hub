@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Profile Card</title>
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style></style>
+  </head>
+  <body
+    class="flex items-center justify-center min-h-screen bg-gray-100 text-gray-900 font-sans"
+  >
+    <!-- Profile Card -->
+    <div class="bg-white rounded-lg shadow-lg p-6 max-w-sm w-full">
+      <div class="flex items-center mb-4">
+        <!-- Profile Picture -->
+        <img
+          src="https://avatars.githubusercontent.com/MosaddiqX"
+          alt="Profile"
+          class="w-16 h-16 rounded-full border-2 border-green-600"
+        />
+        <!-- User Info -->
+        <div class="ml-4">
+          <h2 class="text-lg font-bold text-green-600">MosaddiqX</h2>
+          <p class="text-sm text-gray-600">GitHub User</p>
+        </div>
+      </div>
+      <!-- GitHub Profile Link -->
+      <div class="mt-4">
+        <a
+          href="https://github.com/MosaddiqX"
+          class="block w-full text-center bg-green-600 text-white py-2 rounded hover:bg-green-700 transition"
+        >
+          View GitHub Profile
+        </a>
+      </div>
+    </div>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
