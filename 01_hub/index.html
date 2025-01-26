@@ -3,39 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GitHub Profile Card</title>
-    <!-- TailwindCSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style></style>
+    <title>Doms</title>
+    <style>
+      body {
+        background-color: #f7f7f7;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 2rem;
+      }
+      .card-container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+      }
+      .card {
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+        padding: 1.5rem;
+        transition: transform 0.2s;
+      }
+      .card:hover {
+        transform: translateY(-0.5rem);
+      }
+      .card span {
+        color: #495057;
+        font-weight: bold;
+        font-size: 1.25rem;
+      }
+    </style>
+    <script type="module" src="./src/main.js"></script>
   </head>
-  <body
-    class="flex items-center justify-center min-h-screen bg-gray-100 text-gray-900 font-sans"
-  >
-    <!-- Profile Card -->
-    <div class="bg-white rounded-lg shadow-lg p-6 max-w-sm w-full">
-      <div class="flex items-center mb-4">
-        <!-- Profile Picture -->
-        <img
-          src="https://avatars.githubusercontent.com/MosaddiqX"
-          alt="Profile"
-          class="w-16 h-16 rounded-full border-2 border-green-600"
-        />
-        <!-- User Info -->
-        <div class="ml-4">
-          <h2 class="text-lg font-bold text-green-600">MosaddiqX</h2>
-          <p class="text-sm text-gray-600">GitHub User</p>
-        </div>
-      </div>
-      <!-- GitHub Profile Link -->
-      <div class="mt-4">
-        <a
-          href="https://github.com/MosaddiqX"
-          class="block w-full text-center bg-green-600 text-white py-2 rounded hover:bg-green-700 transition"
-        >
-          View GitHub Profile
-        </a>
-      </div>
+  <body>
+    <div id="view1" class="card-container view">
+      <div class="card" id="card-1">1</div>
+      <div class="card" id="card-2">2</div>
+      <div class="card" id="card-3">3</div>
+      <div class="card" id="card-4">4</div>
+      <div class="card" id="card-5">5</div>
+      <div class="card" id="card-6">6</div>
+      <div class="card" id="card-7">7</div>
+      <div class="card" id="card-8">8</div>
+      <div class="card" id="card-9">9</div>
+      <div class="card" id="card-10">10</div>
+      <div class="card" id="card-11">11</div>
+      <div class="card" id="card-12">12</div>
     </div>
-    <script src="./src/main.js"></script>
   </body>
 </html>

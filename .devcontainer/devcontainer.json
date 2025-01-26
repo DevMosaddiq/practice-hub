@@ -20,6 +20,8 @@
         "explorer.autoReveal": false,
         "explorer.compactFolders": false,
         "explorer.openEditors.visible": 1, // Hide open editors
+        "editor.scrollbar.verticalScrollbarSize": 1,
+        "editor.scrollbar.horizontalScrollbarSize": 1,
         "window.menuBarVisibility": "compact",
         "window.zoomLevel": 1,
         "window.titleBarStyle": "custom",
