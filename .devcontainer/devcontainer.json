@@ -34,7 +34,7 @@
         "editor.fontSize": 16,
         "editor.lineHeight": 28,
         "editor.smoothScrolling": true,
-        "editor.scrollBeyondLastLine": false,
+        "editor.scrollBeyondLastLine": true,
         "editor.tokenColorCustomizations": {
           "textMateRules": [
             {
